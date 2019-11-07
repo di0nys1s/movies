@@ -3,3 +3,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Listing movies in a table.
 Delete each movie.
 Like each movie
+Filter by genre
+Pagination
+Sort by each header
