@@ -4,9 +4,8 @@ import PropTypes from "prop-types";
 // lodash is a js library called as _
 import _ from "lodash";
 
-const Pagination = props => {
-  const { itemsCount, pageSize, currentPage, onPageChange } = props;
-  console.log(currentPage);
+const Pagination = ({ itemsCount, pageSize, currentPage, onPageChange }) => {
+  // console.log(currentPage);
   const pagesCount = Math.ceil(itemsCount / pageSize);
   // remove the pagination if there is one page
   if (pagesCount === 1) {
@@ -17,7 +16,7 @@ const Pagination = props => {
 
   return (
     <nav>
-      <ul className="pagination">
+      <ul className="pagination clickable">
         {pages.map(page => (
           // if we use map then we need to add key item
           <li
