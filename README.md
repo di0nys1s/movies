@@ -6,3 +6,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
  - Filter by genre
  - Pagination
  - Sort by each header
+ - Redirecting to movie details through each movie link
