@@ -87,7 +87,7 @@ class Movies extends Component {
 
     return (
       <React.Fragment>
-        <div className="row">
+        <div className="row m-2">
           <div className="col-3">
             <ListGroup
               items={this.state.genres}
